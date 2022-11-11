@@ -1,11 +1,12 @@
 This repository contains the source code, pre-trained models, and dataset of the paper 'Key factors for quantitative precipitation nowcasting using ground weather radar data based on deep learning'. 
 
 ### data.zip: 
-There are two dataset; CAPPI (constant altitude plan position indicator) radar precipitation and HSR-based (hybrid surface rainfall) MAPLE prediction up to 120 minutes in mm/h for 05-10 Aug. 2020 KST. CAPPI radar dataset was used to evaluate the performances over the heavy rainfall event, and MAPLE was used just for visual comparison. Both datasets were provided by KMA and Korea Public Data Portal.
+There are two dataset; CAPPI (constant altitude plan position indicator) radar precipitation and HSR-based (hybrid surface rainfall) MAPLE prediction up to 120 minutes in mm/h for 05-10 Aug. 2020 KST. CAPPI radar dataset was used to evaluate the performances over the heavy rainfall event, and MAPLE was used just for visual comparison. Both datasets were provided by KMA and Korea Public Data Portal. 
 
 https://radar.kma.go.kr
 
 https://www.data.go.kr/en/data/15068574/fileData.do
+
 
 
 ### models.zip: 
@@ -29,3 +30,6 @@ The detailed description about the code and data can be found in the preprints 
 You can visit the Github repository and contact to me for more information.
 
 https://github.com/daehyeon-han/dlqpn-comparison
+
+Please visit Zenodo repository to download the dataset (5.3GB) and pre-trained models (15.9GB).
+https://doi.org/10.5281/zenodo.7312779
